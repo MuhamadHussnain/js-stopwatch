@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(169, 196, 196);
+    
+    
+}
+
+.stopwatch {
+    text-align: center;
+    border: 5px   rgb(108, 139, 115) solid;
+    background-color: navy;
+    
+
+}
+
+#display {
+    font-size: 4em;
+    margin-bottom: 20px;
+
+    
+}
+
+.controls button {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+#start{
+    background-color: red;
+}
+#stop{
+    background-color: green;
+}
+#reset{
+    background-color: blue;
+}
